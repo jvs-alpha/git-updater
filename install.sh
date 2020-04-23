@@ -2,8 +2,8 @@
 
 if [[ $EUID -eq 0 ]]
 then
-  cp ca.sh /bin/ca
-  chmod +x /bin/ca
+  cp ca.sh /usr/local/bin/ca
+  chmod +x /usr/local/bin/ca
 else
   echo "Run the script with sudo"
 fi
